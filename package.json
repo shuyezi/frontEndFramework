@@ -1,0 +1,43 @@
+{
+  "name": "framework-of-production",
+  "version": "1.0.0",
+  "description": "a front-end framework for product build with gulp and seajs",
+  "main": "index.js",
+  "scripts": {
+    "libs": "gulp release:libs",
+    "pages": "gulp release:pages",
+    "build": "gulp release:libs && gulp release:pages",
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "gulp",
+    "seajs",
+    "framework",
+    "front-end",
+    "product"
+  ],
+  "author": "jimmy",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^3.2.2",
+    "gulp-csso": "^1.1.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-seajs-combo": "^1.2.3",
+    "gulp-sequence": "^0.4.5",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.2",
+    "jshint": "^2.9.1",
+    "less-plugin-autoprefix": "^1.5.1"
+  }
+}
